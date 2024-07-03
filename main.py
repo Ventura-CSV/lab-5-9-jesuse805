@@ -2,12 +2,9 @@ import random
 
 
 def bubble(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
 
+for i in range(len(numbers) - 1):
+    if numbers[i] 
 
 def main():
     numbers = [2, 3, 0, 5, 4]
