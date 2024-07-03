@@ -3,8 +3,9 @@ import random
 
 def bubble(numbers):
 
-for i in range(len(numbers) - 1):
-    if numbers[i] 
+    for i in range(len(numbers) - 1):
+        if numbers[i] > numbers[i + 1]:
+            numbers[i], numbers[i + 1] = numbers[i + 1], numbers[i]
 
 def main():
     numbers = [2, 3, 0, 5, 4]
